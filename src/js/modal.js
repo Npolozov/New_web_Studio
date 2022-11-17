@@ -5,9 +5,7 @@ const refs = {
   lockBody: document.querySelector('body'),
 };
 
-refs.openModalBtn.addEventListener('click', openBtnClick);
-refs.closeModalBtn.addEventListener('click', closeBtnClick);
-refs.modal.addEventListener('click', onBackdropClick);
+console.log(closeModalBtn);
 
 function toggleModal() {
   refs.modal.classList.toggle('is-hidden');
@@ -36,3 +34,7 @@ function keyBoardPress(event) {
     closeBtnClick();
   }
 }
+
+refs.openModalBtn.addEventListener('click', openBtnClick);
+refs.closeModalBtn.addEventListener('click', closeBtnClick);
+refs.modal.addEventListener('click', onBackdropClick);
