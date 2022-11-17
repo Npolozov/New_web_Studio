@@ -2,8 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -12,24 +12,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./sass/main.scss" />
-    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./sass/portfolio.scss" />
+    <title>Портфолио</title>
   </head>
   <body>
     <body>
-      <include src="./partials/header.html"></include>
+      <include src="./partials/utils/header_portfolio.html"></include>
 
       <main>
-        <include src="./partials/hero.html"></include>
-        <include src="./partials/about.html"></include>
-        <include src="./partials/gallery.html"></include>
-        <include src="./partials/team.html"></include>
-        <include src="./partials/company.html"></include>
+        <include src="./partials/portfolio.html"></include>
       </main>
 
       <include src="./partials/footer.html"></include>
 
-      <include src="./partials/utils/modal.html"></include>
       <include src="./partials/utils/mobal-menu.html"></include>
       <script type="module" src="./index.js"></script>
     </body>
