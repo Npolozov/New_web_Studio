@@ -1,7 +1,5 @@
-const list = document.querySelector('.buttons-list'),
-  items = document.querySelectorAll('.list-projects__item');
-
-console.log(list);
+const list = document.querySelector('.buttons-list');
+const items = document.querySelectorAll('.list-projects__item');
 
 function filter() {
   list.addEventListener('click', event => {

@@ -5,6 +5,10 @@ const refs = {
   lockBody: document.querySelector('body'),
 };
 
+refs.openModalBtn.addEventListener('click', openBtnClick);
+refs.closeModalBtn.addEventListener('click', closeBtnClick);
+refs.modal.addEventListener('click', onBackdropClick);
+
 function toggleModal() {
   refs.modal.classList.toggle('is-hidden');
 }
