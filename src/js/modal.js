@@ -5,7 +5,7 @@ const refs = {
   lockBody: document.querySelector('body'),
 };
 
-console.log(closeModalBtn);
+console.log(refs.closeModalBtn);
 
 function toggleModal() {
   refs.modal.classList.toggle('is-hidden');

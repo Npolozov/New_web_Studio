@@ -4,7 +4,6 @@ const items = document.querySelectorAll('.list-projects__item');
 function filter() {
   list.addEventListener('click', event => {
     const itemsId = event.target.dataset.id;
-    console.log(itemsId);
 
     switch (itemsId) {
       case 'all':
